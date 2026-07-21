@@ -5,34 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portal TS Service - Fukui</title>
 
-  <!-- 1. LINKS DA SUA LOGO -->
-  <!-- Substitua o link abaixo pelo "Endereço da Imagem" copiado do seu GitHub -->
+  <!-- 1. LINKS DA SUA LOGO (iPhone, Android e Navegadores) -->
   <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/fhiratatss/portal-ts/main/logo.png">
   <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/fhiratatss/portal-ts/main/logo.png">
-  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/fihiratatss/portal-ts/main/logo.png">
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/fhiratatss/portal-ts/main/logo.png">
 
-  <!-- 2. CONFIGURAÇÕES VISUAIS DO IPHONE -->
+  <!-- 2. CONFIGURAÇÕES VISUAIS DE WEB APP (iPhone e Android) -->
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="TS Service">
 
   <!-- 3. REDIRECIONAMENTO -->
   <script>
-    // Dá um tempo de 2 segundos (2000 milissegundos) para o Safari ler a logo antes de pular de página
+    // Aguarda 7 segundos (7000 milissegundos) para ler a logo antes de redirecionar
     setTimeout(function() {
-      
-      // Substitua o link abaixo pelo link real do seu Google Sites
       window.location.href = "https://sites.google.com/tsservice.ne.jp/portaltsservicefukui/home";
-      
     }, 7000);
   </script>
 </head>
 <body style="background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: sans-serif;">
-  
-  <!-- Tela de carregamento simples para o funcionário ver enquanto aguarda 2 segundos -->
-  <div style="text-align: center;">
-    <h2 style="color: #333; margin-bottom: 5px;">Portal TS Service</h2>
-    <p style="color: #666;">Carregando sistema...</p>
+
+  <!-- Tela de carregamento -->
+  <div style="text-align: center; padding: 20px;">
+    <h2 style="color: #333; margin-bottom: 8px;">Portal TS Service - Fukui</h2>
+    <p style="color: #666; margin: 0;">Carregando sistema...</p>
   </div>
 
 </body>
