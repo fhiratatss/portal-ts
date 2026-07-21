@@ -1,0 +1,21 @@
+{
+  "name": "Portal TS Service - Fukui",
+  "short_name": "TS Service",
+  "description": "Portal TS Service - Fukui",
+  "start_url": "https://fhiratatss.github.io/portal-ts/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/fhiratatss/portal-ts/main/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/fhiratatss/portal-ts/main/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
