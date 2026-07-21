@@ -6,7 +6,7 @@ Este repositório contém as configurações e o script de redirecionamento para
 
 ## 🔗 Links Oficiais
 
-* **Link de Distribuição (GitHub Pages):** `https://fhiratatss.github.io/portal-ts/`
+* **Link de Distribuição (GitHub Pages):** `https://tsservice-fukui.github.io/portal-ts/`
 * **Destino do Portal (Google Sites):** `https://sites.google.com/tsservice.ne.jp/portaltsservicefukui/home`
 
 ---
